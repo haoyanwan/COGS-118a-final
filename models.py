@@ -223,9 +223,3 @@ class GamePredictionTransformer(nn.Module):
         champion_ids = match_data[:, 1::2]
         return self.team_composition_encoder(champion_ids)
 
-
-def run_model_test():
-    return
-
-if __name__ == '__main__':
-    run_model_test()
